@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Weather App</h1>
+      <input
+        type="text"
+        id="location"
+        placeholder="Enter city name or zip code"
+      />
+      <button id="searchBtn">Search</button>
+      <div id="weatherInfo">
+        <p>Location: <span id="locationName"></span></p>
+        <p>Temperature: <span id="temperature"></span>°C</p>
+        <p>Date & Time: <span id="dateTime"></span></p>
+      </div>
+      <button id="toggleMode">Toggle Dark/Light Mode</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
